@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h3>Realizar Venda com Prescrição</h3>
+        <form action="vendas_update" method="post">
+            <p>Número Cédula: <input type="number" name="num_cedula"/></p>
+            <p>Número Doente: <input type="number" name="num_doente"/></p>
+            <p>Data: <input type="date" name="data"/></p>
+            <p>Substancia: <input type="text" name="substancia"/></p>
+            <p>Preço: <input type="number" name="preco"/></p>
+            <p>Número Venda: <input type="number" name="num_venda"/></p>
+            <p>Data de Registo: <input type="date" name="data_registo"/></p>
+            <p>Instituição: <input type="text" name="instituicao"/></p>
+            <p><input type="hidden" name="flag_venda" value="1"/></p>
+            <p><input type="submit" value="Confirmar Venda"/></p>
+        </form>
+    </body>
+</html>
